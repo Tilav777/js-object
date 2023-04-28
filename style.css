@@ -1,0 +1,37 @@
+*::after, *::before, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movies-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #000;
+    gap: 20px 0;
+}
+
+.movie p {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.movie p span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #303030;
+}
+
+body {
+    padding: 40px;
+}
